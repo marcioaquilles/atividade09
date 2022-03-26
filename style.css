@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 
-body, input {
-    color: #6A6180;
+body,
+input {
+    color: #6a6180;
 }
 
 input {
@@ -14,10 +15,10 @@ input {
     padding: 15px;
 }
 
-label, span {
+label,
+span {
     font-size: 1.4rem;
     color: black;
-
 }
 
 label {
@@ -56,17 +57,16 @@ body {
     padding: 1px 0px 10px 10px;
     margin-bottom: 10px;
     border-radius: 4px;
-
 }
 
 .questao:hover {
     background-color: #e0f7fa;
 }
 
-input[type=button] {
+input[type="button"] {
     /*margin-top: 10px;*/
     background-color: white; /* Green */
-    border: 2px solid #008CBA;
+    border: 2px solid #008cba;
     color: black;
     padding: 10px 15px;
     text-align: center;
@@ -81,7 +81,7 @@ input[type=button] {
 
 select {
     background-color: white; /* Green */
-    border: 2px solid #008CBA;
+    border: 2px solid #008cba;
     color: black;
     padding: 10px 15px;
     text-align: center;
@@ -95,8 +95,8 @@ select {
     border-radius: 4px;
 }
 
-input[type=button]:hover {
-    background-color: #008CBA;
+input[type="button"]:hover {
+    background-color: #008cba;
     color: white;
 }
 
